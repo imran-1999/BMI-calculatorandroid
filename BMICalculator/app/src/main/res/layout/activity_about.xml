@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".AboutActivity">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="DEVELOPER DETAILS"
+            android:textColor="#442C2E"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/result_card2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="390dp"
+                android:layout_height="124dp">
+
+
+                <ImageView
+                    android:id="@+id/food_image2"
+                    android:layout_width="67dp"
+                    android:layout_height="104dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/taqim"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="ABDUL MUNTAQIM BIN MOHD MUHAYEDDIN"
+                    android:textColor="#442C2E"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/food_image2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/rating2"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="44dp"
+                    android:text="2019564059 "
+                    android:textColor="#442C2E"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+
+
+                    app:layout_constraintStart_toEndOf="@+id/food_image2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="165dp"
+                    android:layout_height="19dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="68dp"
+                    android:text="RCS2405C "
+                    android:textColor="#442C2E"
+                    android:textSize="11sp"
+
+                    android:textStyle="bold"
+
+                    app:layout_constraintStart_toEndOf="@+id/food_image2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/tqfb"
+                    android:layout_width="61dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="188dp"
+                    android:layout_marginTop="60dp"
+                    app:layout_constraintStart_toEndOf="@+id/food_image2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/fb" />
+
+                <ImageView
+                    android:id="@+id/tqig"
+                    android:layout_width="35dp"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="248dp"
+                    android:layout_marginTop="68dp"
+                    app:layout_constraintStart_toEndOf="@+id/food_image2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ig" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/result_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="16dp"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="390dp"
+                android:layout_height="124dp">
+
+
+                <ImageView
+                    android:id="@+id/food_image"
+                    android:layout_width="77dp"
+                    android:layout_height="103dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/imran"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="MUHAMMAD IMRAN BIN SAHROM "
+                    android:textColor="#442C2E"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/food_image"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="40dp"
+                    android:text="2019564059 "
+                    android:textColor="#442C2E"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+
+
+                    app:layout_constraintStart_toEndOf="@+id/food_image"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/t32"
+                    android:layout_width="169dp"
+                    android:layout_height="22dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="64dp"
+                    android:text="RCS2405C "
+                    android:textColor="#442C2E"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/food_image"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imfb"
+                    android:layout_width="61dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="180dp"
+                    android:layout_marginTop="56dp"
+                    app:layout_constraintStart_toEndOf="@+id/food_image"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/fb" />
+
+                <ImageView
+                    android:id="@+id/imig"
+                    android:layout_width="35dp"
+                    android:layout_height="41dp"
+                    android:layout_marginStart="240dp"
+                    android:layout_marginTop="64dp"
+                    app:layout_constraintStart_toEndOf="@+id/food_image"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ig" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/y6"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+
+            android:text="This system is developed to calculate the Body Mass Index (BMI) of the user. With this system, the users can input their height and weight to determine their weight class according to the BMI test result. For more details, please visit our github site."
+            android:textColor="#442C2E"
+            android:textSize="15sp"
+
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="97dp" />
+
+        <ImageView
+            android:id="@+id/gt"
+            android:layout_width="75dp"
+            android:layout_height="53dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="30dp"
+            app:srcCompat="@drawable/github" />
+
+        <TextView
+            android:id="@+id/y23"
+            android:layout_width="343dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="© Copyright Notice"
+            android:textColor="#442C2E"
+            android:textSize="13sp"
+            android:textStyle="bold"
+
+
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="97dp" />
+
+        <TextView
+            android:id="@+id/y232"
+            android:layout_width="340dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+
+            android:text="This system is protected by the Malaysian and International copyright laws. Reproductions and distribution of the system without the permission of the developer is prohibited"
+            android:textColor="#442C2E"
+            android:textSize="13sp"
+            android:textStyle="bold"
+
+
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="97dp" />
+
+        <TextView
+            android:id="@+id/y2"
+            android:layout_width="344dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:text="
+                © 2021 Imran and Muntaqim development"
+            android:textColor="#442C2E"
+            android:textSize="13sp"
+            android:textStyle="bold"
+
+
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="97dp" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
